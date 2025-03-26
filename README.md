@@ -42,5 +42,4 @@ Response:
 - Provides a starting point for more advanced real estate prediction models.
 
 ---
-🚀 **Contributions & feedback are welcome!** Feel free to raise an issue or submit a PR. Happy coding! 😊
 
