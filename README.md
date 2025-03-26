@@ -12,10 +12,6 @@ To set up the project, clone this repository and install dependencies:
 git clone https://github.com/ashdev-7/house-price-api.git
 cd house-price-api
 
-# Create a virtual environment (optional but recommended)
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
 # Install dependencies
 pip install -r requirements.txt
 ```
@@ -29,6 +25,7 @@ By default, the API will be available at `http://127.0.0.1:5000/`.
 
 ### 3️⃣ Making Predictions
 Send a POST request with house details to get the predicted price:
+exmaple :
 ```bash
 curl -X POST "http://127.0.0.1:5000/predict" -H "Content-Type: application/json" -d '{"sqft": 1500, "bedrooms": 3, "bathrooms": 2, "location": "New York"}'
 ```
